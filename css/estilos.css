@@ -143,7 +143,7 @@ p{
     background-image: url(../img/ighover.png);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1024px) {
 
     .header-right{
         padding-top: 15px;
@@ -156,14 +156,40 @@ p{
          margin-left: 0px;
     }
     
+    .redes-sociales{
+        position: relative;
+        left: -80px;
+        margin-left: 50%;
+    }
+    
     .column-img1{
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    .borde{
+        border:0px;
+    }
+
+    .borde-right{
+        border-right: 0px;
+    }
+
+    .borde-left{
+        border-left: 0px;
+    }
     
+    .deco{
+        background-color: transparent;
+    }
     aside{
         display: none;
     }
+       
+}
 
+@media (max-width: 376px) {
+    .body-musicaly{
+        margin-left: 10%;
+    }
     
 }

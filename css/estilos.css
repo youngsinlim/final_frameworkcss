@@ -1,15 +1,52 @@
 .body-musicaly{
     background-color: #bdd5ff;
     font-family: 'Pacifico', cursive;
-    color: #1498D5;
+    color: #111111;
 }
 
 p{
     font-family: 'Libre Baskerville', serif;
+    color: #1498D5;
+}
+
+.redes-sociales{
+    width: 300px;
+    display: flex;
+}
+
+.fb{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/fb.png");
+}
+
+.tt{
+    margin-left: 10px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/tt.png");
+}
+
+.ig{
+    margin-left: 10px;
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/ig.png");
 }
 
 .borde{
-    border:1px dashed black;
+    border:2px dashed white;
+}
+
+.borde-right{
+    border-right: 2px dashed white;
+}
+
+.borde-left{
+    border-left: 2px dashed white;
 }
 
 .header-right{
@@ -34,8 +71,76 @@ p{
      color:white;
 }
 
+.navegacion:hover{
+     background-color:#286090;
+}
+
 .espacio{
     margin-left: 4.16%;
+}
+
+.column-img1{
+    margin-top: 80px;
+}
+.column-img2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.comentario{
+    resize: none;
+}
+
+.buscador{
+    font-family: 'Libre Baskerville', serif;
+    border-radius: 10px;
+    width: 70%;
+    margin: 15px auto;
+    margin-left: 20px;
+    border-style: none;
+    color: #1498D5;
+    background-image: url('../img/sicon.svg');
+    background-position: 10px 0px; 
+    background-repeat: no-repeat;
+    padding: 7.5px 0px 7.5px 50px;
+}
+
+.buscar{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.opciones{
+    border:2px dashed white !important;
+    margin-top:10px;
+    background-color: #1498D5;
+    color: #fff !important; 
+    border-radius: 15px;
+}
+
+.opciones a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.deco{
+    background-color: #111111;
+}
+
+.hoverme:hover{
+    background-color: #286090;
+}
+
+.fb:hover{
+    background-image: url(../img/fbhover.png);
+}
+
+.tt:hover{
+    background-image: url(../img/tthover.png);
+}
+
+.ig:hover{
+    background-image: url(../img/ighover.png);
 }
 
 @media (max-width: 770px) {
@@ -49,6 +154,15 @@ p{
          margin-top: 0px;
          margin-bottom: 0px;
          margin-left: 0px;
+    }
+    
+    .column-img1{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    aside{
+        display: none;
     }
 
     
